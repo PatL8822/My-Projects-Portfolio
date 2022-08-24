@@ -5,7 +5,9 @@
 
 :root {
     --gray: #a6a6a6;
-
+    --Lblue:  #3399ff;
+    --Dblue:  #0059b3;
+    --tur: #00ffff;
 }
 
 html {
@@ -106,9 +108,17 @@ p {
 #office-pic {
     display: block;
     width: 100%;
+    transition: .5s;
+    padding: 2px;
     max-width: 650px;
     margin: 0 auto;
+    border: 2px solid var(--Lblue);
 
+}
+
+#office-pic:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px var(--Dblue), 0px 0px 35px var(--tur);
 }
 
 #photos {
@@ -117,34 +127,71 @@ p {
 
 #patriot {
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
     height: auto;
+    transition: .5s;
+    border: 2px solid var(--Lblue);
+    padding: 2px;
     margin-top: 8%;
     margin-right: 15%;
 }
 
+#patriot:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
+}
+
+
 #comming-soon {
     width: 100%;
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
+    transition: .5s;
+    border: 2px solid var(--Lblue);
+    padding: 2px;
 }
+
+#comming-soon:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
+}
+
 
 #photoset-two {
     text-align: center;
+    padding-bottom: 5px;
+  
 }
 
 #blsoon {
     width: 100%;
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
     margin-top: 8%;
     margin-right: 20%;
+    transition: .5s;
+    border: 2px solid var(--Lblue);
+    padding: 2px;
+
+}
+
+#blsoon:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
 }
 
 .comming-soon {
     width: 100%;
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
+    transition: .5s;
+    border: 2px solid var(--Lblue);
+    padding: 2px;
+}
+
+.comming-soon:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
 }
 
 #h2ci{
@@ -153,7 +200,7 @@ p {
 
 footer{
     background-color: var(--gray);
-    height: 50px
+    height: 80px;
 }
 
 footer section {
@@ -167,4 +214,5 @@ footer section div{
 
 #email{
     margin-left: 15%;
+
 }
