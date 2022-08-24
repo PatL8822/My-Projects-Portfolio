@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --gray: #a6a6a6;
+
+}
+
+html {
+    background: url(https://149799271.v2.pressablecdn.com/wp-content/uploads/2021/05/Mount-Rainier-Winter-Lake-300DPI-scaled-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .90);
+    width: 60%;
+    min-height: 100vh
+}
+
+header {
+    background-color: var(--gray);
+    width: 100%;
+}
+
+header section {
+    text-align: center;
+}
+
+.pro_pic {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 70px;
+    font-style: italic;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline-block;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.text {
+    color: black;
+    text-decoration: none;
+}
+
+.text:hover {
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#about-me {
+    margin-left: 5%;
+}
+
+p {
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+
+#past-poj {
+    margin-left: 5%;
+}
+
+#office-pic {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+
+}
+
+#photos {
+    text-align: center;
+}
+
+#patriot {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 15%;
+}
+
+#comming-soon {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+#photoset-two {
+    text-align: center;
+}
+
+#blsoon {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin-top: 8%;
+    margin-right: 20%;
+}
+
+.comming-soon {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+#h2ci{
+    margin-left: 5%;
+}
+
+footer{
+    background-color: var(--gray);
+    height: 50px
+}
+
+footer section {
+    text-align: center;
+}
+
+footer section div{
+    padding-bottom: 4px;
+    display: inline;
+}
+
+#email{
+    margin-left: 15%;
+}
