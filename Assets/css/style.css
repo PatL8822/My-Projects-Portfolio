@@ -5,8 +5,8 @@
 
 :root {
     --gray: #a6a6a6;
-    --Lblue:  #3399ff;
-    --Dblue:  #0059b3;
+    --Lblue: #3399ff;
+    --Dblue: #0059b3;
     --tur: #00ffff;
 }
 
@@ -90,7 +90,7 @@ article {
     margin-left: 5%;
 }
 
-p {
+.peragraph p {
     line-height: 25px;
     margin: 0 auto;
     text-align: center;
@@ -116,7 +116,7 @@ p {
 
 }
 
-#office-pic:hover{
+#office-pic:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 25px var(--Dblue), 0px 0px 35px var(--tur);
 }
@@ -136,11 +136,10 @@ p {
     margin-right: 15%;
 }
 
-#patriot:hover{
+#patriot:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
 }
-
 
 #comming-soon {
     width: 100%;
@@ -151,7 +150,7 @@ p {
     padding: 2px;
 }
 
-#comming-soon:hover{
+#comming-soon:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
 }
@@ -160,7 +159,7 @@ p {
 #photoset-two {
     text-align: center;
     padding-bottom: 5px;
-  
+
 }
 
 #blsoon {
@@ -175,7 +174,7 @@ p {
 
 }
 
-#blsoon:hover{
+#blsoon:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
 }
@@ -189,16 +188,16 @@ p {
     padding: 2px;
 }
 
-.comming-soon:hover{
+.comming-soon:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px var(--Dblue), 0px 0px 15px var(--tur);
 }
 
-#h2ci{
+#h2ci {
     margin-left: 5%;
 }
 
-footer{
+footer {
     background-color: var(--gray);
     height: 80px;
 }
@@ -207,12 +206,168 @@ footer section {
     text-align: center;
 }
 
-footer section div{
+footer section p {
     padding-bottom: 4px;
     display: inline;
 }
 
-#email{
+#email {
     margin-left: 15%;
 
+}
+
+@media only screen and (max-width: 980px) {
+
+    ul li {
+        display: inline-block;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .resize img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #office-pic {
+        display: block;
+        width: 100%;
+        transition: .5s;
+        padding: 2px;
+        max-width: 400px;
+        margin: 0 auto;
+        border: 2px solid var(--Lblue);
+    }
+
+    #patriot {
+        display: inline-block;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        transition: .5s;
+        border: 2px solid var(--Lblue);
+        padding: 2px;
+        margin-top: 8%;
+        margin-right: 15%;
+    }
+
+    #comming-soon {
+        display: inline-block;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        transition: .5s;
+        border: 2px solid var(--Lblue);
+        padding: 2px;
+    }
+
+    #photoset-two {
+        text-align: center;
+
+    }
+
+    #blsoon {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        transition: .5s;
+        border: 2px solid var(--Lblue);
+
+
+    }
+
+    .comming-soon {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        transition: .5s;
+        border: 2px solid var(--Lblue);
+
+    }
+
+    #h2ci {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    body {
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, .90);
+        width: 85%;
+        min-height: 100vh
+    }
+
+    .pro_pic {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 30px;
+        font-style: italic;
+        display: inline-block;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    #about-me {
+        text-align: center;
+    }
+
+    .peragraph p {
+        line-height: 25px;
+        margin: 0 auto;
+        text-align: center;
+        width: 75%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border-left: 2px solid black;
+        padding-left: 10px;
+    }
+
+    #past-poj {
+        text-align: center;
+    }
+
+    #photos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #patriot {
+        display: flex;
+        width: 100%;
+        max-width: 125px;
+        height: auto;
+        transition: .5s;
+        border: 2px solid var(--Lblue);
+        padding: 2px;
+        margin-top: 8%;
+        margin-right: 15%;
+    }
+
+    #comming-soon {
+        display: flex;
+        width: 100%;
+        max-width: 125px;
+        height: auto;
+        transition: .5s;
+        border: 2px solid var(--Lblue);
+        padding: 2px;
+    }
+
+    
+    #h2ci {
+        text-align: center;
+    }
+
+    footer section p {
+        display: block;
+    }
 }
